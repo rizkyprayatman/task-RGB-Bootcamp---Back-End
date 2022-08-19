@@ -11,3 +11,5 @@ function nilaiMax(arr){
 }
 
 nilaiMax([4,3,1,2,7,6]);
+
+// Looping For 

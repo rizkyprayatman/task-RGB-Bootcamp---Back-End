@@ -1,20 +1,30 @@
 function indexNilai(nilai){ 
     if (nilai >= 80){
         index = "A";
-        console.log(index)
-    } else if (nilai >= 70 && nilai < 80){
+    } else if (nilai >= 70){
         index = "B";
-        console.log(index)
-    } else if (nilai >= 60 && nilai < 70){
+    } else if (nilai >= 60){
         index = "C";
-        console.log(index)
-    } else if (nilai >= 50 && nilai < 60){
+    } else if (nilai >= 50){
         index = "D";
-        console.log(index)
     } else {
         index = "E";
-        console.log(index)
     }
+
+    // if (nilai < 50){
+    //     index = "E";
+    // } else if (nilai <= 50){
+    //     index = "D";
+    // } else if (nilai <= 60){
+    //     index = "C";
+    // } else if (nilai <= 70){
+    //     index = "B";
+    // } else {
+    //     index = "A";
+    // }
+
+    console.log("Nilai : " + nilai)
+    console.log("Index Nilai : " + index)
 }
 
 indexNilai(80);
